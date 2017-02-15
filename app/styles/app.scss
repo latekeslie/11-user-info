@@ -1,6 +1,63 @@
 // @import 'yoga';
 // @import 'normalize';
+//
+$c-green: #99cd74;
+$c-grey: #6d7771;
 
-// $fa-font-path: '//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts';
+$fa-font-path: '//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts';
 // @import 'font-awesome';
 @import 'box-sizing';
+
+.wrapper {
+  margin: 1rem;
+  max-width: 30rem;
+  margin: auto;
+}
+
+.image-background {
+  position: relative;
+  padding: 4rem;
+  background-color: $c-green;
+  display: flex;
+  justify-content: center;
+
+  img {
+    //justify-content: center;
+    border-radius: 5rem;
+  }
+}
+
+.user-info-container {
+  //padding: 1rem 0;
+  border-top: 0.15rem;
+
+  // > * {
+  //   margin-top: 1rem;
+  //   margin-bottom: 1rem;
+  // }
+
+  > * + * {
+    border-top: 0.05rem solid $c-grey;
+  }
+
+}
+
+.user-info-container__item {
+  padding: 1rem;
+}
+
+//   &__phone {
+
+//  }
+
+//&__email {
+
+//}
+
+//&__number {
+
+//}
+
+//&__location {
+
+//}
