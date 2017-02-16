@@ -13,11 +13,22 @@ $fa-font-path: '//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts';
   max-width: 30rem;
   margin: auto;
 }
+.fa-arrow-left {
+  padding: 1rem;
+}
+
+.image-container{
+  background-color: $c-green;
+   i {
+      padding-top: 0.5rem;
+      padding-left: 0.5rem;
+   }
+}
 
 .image-background {
   position: relative;
   padding: 4rem;
-  background-color: $c-green;
+
   display: flex;
   justify-content: center;
 
